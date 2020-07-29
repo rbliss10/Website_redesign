@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<title>Medicine Horse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="meddrawn.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Mike Medicine Horse</h1>
+    <p>2D and 3D Artist and Animator</p>
+    <img src="12003176_10205336493988645_5952295803313099128_n.jpg" alt="boy" class="w3-image" width="592" height="808">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Story</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Mike is a Crow Indian from Montana and moved to the Twin Cities for college over 20 years ago. In his free time, he's either drawing, playing fighting games, or playing guitar. He's always told himself "if creating art is no longer an option, I’ll be happy playing guitar in a blues band". Outside of work, he has a loving, understanding wife and 3 kids who happily take up the rest of his time.
+
+Mike often considers himself a “pop” artist in the sense that he's most influenced by modern media (film, music, comics) with a firm belief in classical art and foundation. For Mike, it’s about draftsmanship as well as concept. Admittedly, he tends to lean more towards technical execution and less towards ideas, but it’s something he's aware of and works on.
+
+For his 3D work, he works mainly in Zbrush, Maya, C4D and Vray. For 2D illustration, his main tools are Manga Studio (Clip Studio) for pencils and Photoshop for colors. When creating art for 2D and 3D, his initial goals are building a solid foundation. He asks himself questions like “Is the form working here?” or “Does the composition work at a basic level?”. One of the important lessons he's learned is to not be too committed to a certain way of working. If he can catch that he's frustrated and a piece isn’t working, he's not above starting over or trying something different.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Maya</p>
+    <div class="w3-white">
+      <div class="w3-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Manga Studio</p>
+    <div class="w3-white">
+      <div class="w3-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-grey" style="height:28px;width:98%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        References
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">250+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Conventions
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"><a href="MedicineHorseResume.pdf" download></i> Download Resume</a>
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Commission Prices</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Black & White</li>
+          <li class="w3-padding-16">Character Name(s)</li>
+          <li class="w3-padding-16">Pose (headshot, bust, dynamic, custom)</li>
+          <li class="w3-padding-16">Size (11x17, 8.5x11, 5x8, custom)</li>
+          <li class="w3-padding-16">Digital File or Print</li>
+          <li class="w3-padding-16">
+            <h2>$ 20 - $ 120</h2>
+            <span class="w3-opacity">prices vary depending on size</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-dark-gray w3-padding-large w3-hover-black"><a href="mailto:medicinehorse@gmail.com?Subject=Commission" target="_top">Order Now</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Color</li>
+          <li class="w3-padding-16">Character Name(s)</li>
+          <li class="w3-padding-16">Pose (headshot, bust, dynamic, custom)</li>
+          <li class="w3-padding-16">Size (11x17, 8.5x11, 5x8, custom)</li>
+          <li class="w3-padding-16">Digital File or Print</li>
+          <li class="w3-padding-16">
+            <h2>$ 50 - $ 200</h2>
+            <span class="w3-opacity">prices vary depending on size and colors used</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-dark-gray w3-padding-large w3-hover-black"><a href="mailto:medicinehorse@gmail.com?Subject=Commission" target="_top">Order Now</a></button>
+          </li>
+        </ul>
+      </div>
+      
+    <!-- End Grid/Pricing tables -->
+    </div>
+   
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="portfolio">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg12 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg13 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg14 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg15 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg16 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5:hover {opacity: 0.7;}
+
+#myImg6:hover {opacity: 0.7;}
+
+#myImg7:hover {opacity: 0.7;}
+
+#myImg8:hover {opacity: 0.7;}
+  
+#myImg9:hover {opacity: 0.7;}
+  
+#myImg10:hover {opacity: 0.7;}
+  
+#myImg11:hover {opacity: 0.7;}
+  
+#myImg12:hover {opacity: 0.7;}
+  
+#myImg13:hover {opacity: 0.7;}
+  
+#myImg14:hover {opacity: 0.7;}
+
+#myImg15:hover {opacity: 0.7;}
+  
+#myImg16:hover {opacity: 0.7;}
+  
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+
+<img id="myImg" src="mike-medicine-horse-wolverine-cover.jpg" alt="Mock X-Men comic book art cover created in 2016 to show my appreciation for Marvel" width="300" height="400">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<img id="myImg2" src="mike-medicine-horse-spawn-final.jpg" alt="Spawn art contest entry created in 2016 which also became art prints sold at Combobreaker in 2014" width="300" height="400">
+<img id="myImg3" src="mike-medicine-horse-oni-akuma.jpg" alt="Akuma yin & yang design for a CPT Japan t-shirt" width="300" height="400">
+<img id="myImg4" src="mike-medicine-horse-woodblock-akuma.jpg" alt="Woodblock Akuma - inspired by the yin & yang design" width="300" height="400">
+<img id="myImg5" src="mike-medicine-horse-mmh-ceo-shirt-final.jpg" alt="T-shirt design created for CEO Gaming. This marks my first official Capcom piece." width="300" height="400">
+<img id="myImg6" src="mike-medicine-horse-heihachi-update.jpg" alt="Heihachi was created as a teaser art piece for Combobreaker 2014." width="300" height="400">
+<img id="myImg7" src="mike-medicine-horse-mmh-pirategirl.jpg" alt="Imaginism Workshop final piece" width="300" height="400">
+<img id="myImg8" src="android21_final.jpg" alt="Android 21 from Dragonball Z created for Combobreaker gaming tournament in 2018" width="300" height="400">
+<img id="myImg9" src="eliza_final.jpg" alt="Eliza from Skullgirls created for Combobreaker gaming tournament in 2018" width="300" height="400">
+<img id="myImg10" src="combobreaker.jpg" alt="Combobreaker 2014 Cover Art created for Rick Thiher" width="900" height="450">
+<img id="myImg11" src="mike-medicine-horse-zss-final.jpg" alt="Zero Suit Samus from Metroid created for Combobreaker 2014 prints and fightstick art" width="450" height="300">
+<img id="myImg12" src="mike-medicine-horse-mega-final.jpg" alt="Megaman created for Combobreaker 2014 prints and fightstick art" width="450" height="300">
+<img id="myImg13" src="mike-medicine-horse-side-final-color.jpg" alt="Attack on Titan art commission created for a car wrap in 2015" width="900" height="400">
+<img id="myImg14" src="mike-medicine-horse-mmh-megacupcakes.jpg" alt="Megaman characters created to sell as prints in 2011" width="450" height="300">
+<img id="myImg15" src="mike-medicine-horse-ryoko-te2-final-wallpaper.jpg" alt="Ryoko from Tenchi Muyo fightstick commission created in 2015" width="450" height="300">
+<img id="myImg16" src="mike-medicine-horse-aaron-fsp-final-wallpaper.jpg" alt="Various fighting game characters commissioned in 2014 for a fightstick" width="900" height="450">
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var img2 = document.getElementById('myImg2');
+var img3 = document.getElementById('myImg3');
+var img4 = document.getElementById('myImg4');
+var img5 = document.getElementById('myImg5');
+var img6 = document.getElementById('myImg6');
+var img7 = document.getElementById('myImg7');
+var img8 = document.getElementById('myImg8');
+var img9 = document.getElementById('myImg9');
+var img10 = document.getElementById('myImg10');
+var img11 = document.getElementById('myImg11');
+var img12 = document.getElementById('myImg12');
+var img13 = document.getElementById('myImg13');
+var img14 = document.getElementById('myImg14');
+var img15 = document.getElementById('myImg15');
+var img16 = document.getElementById('myImg16');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+//handle click for myImg2
+img2.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+//handle click for myImg3
+img3.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+//handle click for myImg4
+img4.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+//handle click for myImg5
+img5.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+//handle click for myImg6
+img6.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img7.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img8.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img9.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img10.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img11.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img12.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img13.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img14.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img15.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+  
+//handle click for myImg3
+img16.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+        
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-lighy-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Minneapolis MN, USA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 612.889.2162</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"><a href="mailto:medicinehorse@gmail.com"></a></i>Email: medicinehorse@gmail.com</p>
+    </div><br>
+    <p>Let's work together. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"><a href="mailto:medicinehorse@gmail.com"</a></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-light-grey w3-xlarge">
+    <a href="https://www.facebook.com/MikeMedicineHorse/" i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.instagram.com/medicinehorse/" i class="fa fa-instagram w3-hover-opacity"></i>
+    <a href="https://twitter.com/mikeisrendering?lang=eni" i class="fa fa-twitter w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/in/mike-medicine-horse-b7ba0614/" i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/" target="_blank" class="w3-hover-text-green">w3 schools</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
